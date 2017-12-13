@@ -22,6 +22,9 @@ def using_shift(array)
   array.shift()
 end
 
+def shift_with_args(array)
+  return array.shift(2)
+end
 
 # # #using_delete takes in two arguments, an array and a string, and uses the delete meth
 # od to remove any items from the array that are equal to that string
