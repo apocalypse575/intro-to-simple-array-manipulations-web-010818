@@ -10,11 +10,12 @@ def using_flatten(array)
   return array.flatten()
 end
 
+def using_pop(array)
+  return array.pop()
+end
 
 
 
-# # #using_flatten takes in an argument of an array that contains other arrays and uses t
-# he flatten method to return an array of strings
 
 # # #using_delete takes in two arguments, an array and a string, and uses the delete meth
 # od to remove any items from the array that are equal to that string
