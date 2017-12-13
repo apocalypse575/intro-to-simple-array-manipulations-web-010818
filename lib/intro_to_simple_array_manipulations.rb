@@ -30,6 +30,10 @@ def using_concat(arr1, arr2)
   arr1.concat(arr2)
 end
 
+def using_insert(array, element)
+  array.insert(element)
+end
+
 # # #using_delete takes in two arguments, an array and a string, and uses the delete meth
 # od to remove any items from the array that are equal to that string
 
