@@ -1,5 +1,5 @@
-def using_flatten(array)
-  return array.flatten
+def using_push(array, string)
+  array.push(string)
 end
 
 
