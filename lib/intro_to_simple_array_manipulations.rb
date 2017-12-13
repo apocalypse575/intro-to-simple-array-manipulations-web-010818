@@ -34,6 +34,10 @@ def using_insert(array, element)
   array.insert(4, element)
 end
 
+def using_uniq(array)
+  array.uniq
+end
+
 # # #using_delete takes in two arguments, an array and a string, and uses the delete meth
 # od to remove any items from the array that are equal to that string
 
