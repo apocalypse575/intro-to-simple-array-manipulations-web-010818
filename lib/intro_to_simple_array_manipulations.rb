@@ -38,6 +38,10 @@ def using_uniq(array)
   array.uniq
 end
 
+def using_delete(array, string)
+  array.delete(string)
+end
+
 # # #using_delete takes in two arguments, an array and a string, and uses the delete meth
 # od to remove any items from the array that are equal to that string
 
